@@ -27,6 +27,8 @@
 build/
 coverage/
 lib/generated_plugin_registrant.dart
+**/*.g.dart
+**/*.freezed.dart
 
 # Android related
 **/android/**/gradle-wrapper.jar
