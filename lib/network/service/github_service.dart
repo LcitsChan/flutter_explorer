@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_explorer/model/License.dart';
+import 'package:flutter_explorer/model/license.dart';
 import 'package:retrofit/retrofit.dart';
 
 part 'github_service.g.dart';

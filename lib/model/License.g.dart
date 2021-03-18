@@ -1,22 +1,23 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'License.dart';
+part of 'license.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
-License _$LicenseFromJson(Map<String, dynamic> json) {
-  return License(
-    json['key'] as String,
-    json['name'] as String,
-    json['spdx_id'] as String,
-    json['url'] as String,
-    json['node_id'] as String,
+_$_License _$_$_LicenseFromJson(Map<String, dynamic> json) {
+  return _$_License(
+    key: json['key'] as String,
+    name: json['name'] as String,
+    spdxId: json['spdx_id'] as String,
+    url: json['url'] as String,
+    nodeId: json['node_id'] as String,
   );
 }
 
-Map<String, dynamic> _$LicenseToJson(License instance) => <String, dynamic>{
+Map<String, dynamic> _$_$_LicenseToJson(_$_License instance) =>
+    <String, dynamic>{
       'key': instance.key,
       'name': instance.name,
       'spdx_id': instance.spdxId,

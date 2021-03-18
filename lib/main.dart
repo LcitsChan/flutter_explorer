@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_explorer/model/License.dart';
+import 'package:flutter_explorer/model/license.dart';
 import 'package:flutter_explorer/network/ServiceFactory.dart';
 import 'package:flutter_explorer/network/service/github_service.dart';
 
