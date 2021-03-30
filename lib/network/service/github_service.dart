@@ -14,5 +14,5 @@ abstract class GithubService {
   factory GithubService(Dio dio, {String baseUrl}) = _GithubService;
 
   @GET(Apis.licenses)
-  Future<List<License>> getLicenses();
+  Future<List<License>> fetchLicenses();
 }
